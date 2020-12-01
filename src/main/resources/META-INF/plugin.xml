@@ -1,0 +1,51 @@
+<idea-plugin>
+    <id>com.easylokal.stringResourceHelper</id>
+    <name>Android String Manager</name>
+    <vendor email="hello@easylokal.com" url="https://easylokal.com">EasyLokal</vendor>
+
+    <description><![CDATA[
+      <p>Support for extracting hardcoded strings. This plugin looks for all the hardcoded strings in the project and replaces them with android default resource implementation.</p>
+
+<p><strong>How To:</strong></p>
+
+<p>All you need to do is to provide the prefix to add before all the strings keys and the name of the custom application class(click <a href="https://easylokal.com/blog/how-to-create-custom-application-class-in-android/">here</a> to know how to make a custom application class).</p>
+
+<p>After providing these two things, a list of all hardcoded strings will be on the screen where you just need to select the needed ones.</p>
+
+<p><strong>Features:</strong></p>
+
+<ul>
+	<li>Provide custom context</li>
+	<li>Automatically imports the necessary classes</li>
+	<li>Allow to select/deselect the strings</li>
+	<li>You can add a prefix to append before all keys</li>
+</ul>
+
+<p>This plugin is best to use with <a href="https://easylokal.com">EasyLokal Android SDK</a>.</p>
+
+<p>Created and Supported by <a href="https://easylokal.com">EasyLokal</a></p>
+<a href="https://github.com/easylokal/string-resource-helper-plugin">Github Page</p>
+
+    ]]>
+    </description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+    </extensions>
+
+    <actions>
+        <group id="MyPlugin.TopMenu"
+               text="Tools"
+               description="MyPlugin Toolbar Menu">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+
+            <action id="StringExtractor"
+                    class="StringExtractor"
+                    text="Extract string resources"
+                    description="Helps extracting hardcoded string resources"/>
+        </group>
+
+    </actions>
+
+</idea-plugin>
