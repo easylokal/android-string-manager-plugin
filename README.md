@@ -1,6 +1,6 @@
 # EasyLokal String Resource Helper
 
-[![EasyLokal](https://cdn.shortpixel.ai/client/to_avif,q_glossy,ret_img,w_150,h_30/https://easylokal.com/home/wp-content/uploads/2020/11/cropped-Screen-Shot-2020-11-02-at-12.46.31-AM-150x30.png)](https://easylokal.com)
+[![EasyLokal](https://cdn.shortpixel.ai/client/to_avif,q_glossy,ret_img,w_150,h_30/https://easylokal.com/wp-content/uploads/2020/11/cropped-Screen-Shot-2020-11-02-at-12.46.31-AM-150x30.png)](https://easylokal.com)
 
 Support for extracting hardcoded strings. This plugin looks for all the hardcoded strings in the project and replaces them with android default resource implementation.
 
