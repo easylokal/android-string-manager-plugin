@@ -8,13 +8,13 @@ Support for extracting hardcoded strings. This plugin looks for all the hardcode
 
 - Install plugin from [marketplace](https://plugins.jetbrains.com/plugin/15460-string-resource-helper).
 - Click on Tools -> Extract string resources
-![image](https://easylokal.com/home/wp-content/uploads/2020/11/Plugin_SS-1.png)
+![image](https://easylokal.com/wp-content/uploads/2020/11/Plugin_SS-1.png)
 
 - Enter the required prefix that you want to add before each string resource key and also the Base Application class name. Click [here](https://easylokal.com/blog/how-to-create-custom-application-class-in-android/) to know how to make a base application class.
-![image](https://easylokal.com/home/wp-content/uploads/2020/11/Plugin_SS-2.png)
+![image](https://easylokal.com/wp-content/uploads/2020/11/Plugin_SS-2.png)
 
 - Select/Deselect the strings you want to add in strings.xml
-![image](https://easylokal.com/home/wp-content/uploads/2020/11/Plugin_SS-3.png)
+![image](https://easylokal.com/wp-content/uploads/2020/11/Plugin_SS-3.png)
 
 - Click on Extract Strings....wait a minute...and...That's it. You are now following one more best android coding practice.
 
