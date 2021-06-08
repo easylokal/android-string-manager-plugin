@@ -18,7 +18,7 @@ object LocalPersistenceUtils : PersistentStateComponent<LocalPersistenceUtils.St
 
     override fun getState() = stateCopy
 
-    override fun loadState(state: State?) {
+    override fun loadState(state: State) {
         stateCopy = state
     }
 
@@ -29,4 +29,5 @@ object LocalPersistenceUtils : PersistentStateComponent<LocalPersistenceUtils.St
     fun setData(key: String, value: String) {
         State.dataMap.put(key, value)
     }
+
 }

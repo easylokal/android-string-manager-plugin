@@ -159,7 +159,7 @@ class HardCodedStringTableDialog(project: Project, fileList: List<VirtualFile>, 
         val contextFile = Utils.getKotlinFileFromPathName(ELContextFileName, project)
         if (contextFile == null) {
             var packageName = baseApplicationFileContent.substringBefore("\n")
-            packageName = packageName.replace(";", "")
+            packageName = packageName.split("\r").get(0).replace(";", "")
 
             val file: PsiFile = Utils.kotlinFileType?.let {
                 if (packageName.isBlank()) {
