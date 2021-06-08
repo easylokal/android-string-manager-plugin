@@ -17,8 +17,8 @@ dependencies {
 }
 
 intellij {
-    version '2017.1'
-    alternativeIdePath '/Applications/Android Studio.app'
+    version '2019.3.3'
+//    alternativeIdePath '/Applications/Android Studio.app'
     plugins 'android'
     pluginName 'Android String Manager'
 }

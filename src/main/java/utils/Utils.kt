@@ -30,6 +30,6 @@ object Utils {
     }
 
     fun getStringXMLFiles(project: Project): VirtualFile {
-        return FileTypeIndex.getFiles(XmlFileType.INSTANCE, GlobalSearchScope.allScope(project)).first { it.path.contains(Constants.PATH.STRINGS_XML_PATH) && it.path.contains(project.name) }
+        return FileTypeIndex.getFiles(XmlFileType.INSTANCE, GlobalSearchScope.allScope(project)).first { it.path.contains(Constants.PATH.STRINGS_XML_PATH)  }
     }
 }
